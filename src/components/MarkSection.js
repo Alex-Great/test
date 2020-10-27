@@ -16,7 +16,7 @@ class MarkSection extends Component {
         return (
             <>
                 <div className="mark-section">
-                    <img className="bag-icon" src={bag} />
+                    <img className="bag-icon" src={bag} alt="logo" />
                     <div className="grey-blank"></div>
                     <div className="title">
                         <span>NOS</span>
@@ -28,7 +28,7 @@ class MarkSection extends Component {
                 <div className="mark-section">
                     {this.state.marks.map(mark => {
                         return (
-                            <img className="slide-bag-icon" src={bag} />
+                            <img className="slide-bag-icon" src={bag} alt="logo" />
                         )
                     })}
                 </div>

@@ -4,16 +4,11 @@ import React, { Component } from 'react';
 import bag from '../imgs/logo.png';
 
 class Card extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
     render() {
         return (
             <div className="card-body">
                 <div>
-                    <img className="bag-icon" src={bag} />
+                    <img className="bag-icon" src={bag} alt="logo" />
                 </div>
                 <div>
                     <span>{this.props.title}</span>
